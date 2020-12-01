@@ -1,4 +1,5 @@
 .footer__container{
+    margin-top: 5vh;
     width: 100vw;
     height: 10vh;
     display: flex;
