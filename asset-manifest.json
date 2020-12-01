@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c11e4877.chunk.css",
+    "main.js": "/portfolio/static/js/main.db08bfd2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.db08bfd2.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.355d6fd6.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.355d6fd6.js.map",
+    "static/js/2.ea6acc75.chunk.js": "/portfolio/static/js/2.ea6acc75.chunk.js",
+    "static/js/2.ea6acc75.chunk.js.map": "/portfolio/static/js/2.ea6acc75.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.c11e4877.chunk.css.map": "/portfolio/static/css/main.c11e4877.chunk.css.map",
+    "static/js/2.ea6acc75.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ea6acc75.chunk.js.LICENSE.txt",
+    "static/media/DTS.1949ebb0.png": "/portfolio/static/media/DTS.1949ebb0.png",
+    "static/media/ContactMe.css": "/portfolio/static/media/Profile_Image.29ae1c46.jpg",
+    "static/media/WokingMan.40f1181a.svg": "/portfolio/static/media/WokingMan.40f1181a.svg",
+    "static/media/egosurf_logo.5a7f19e5.jpg": "/portfolio/static/media/egosurf_logo.5a7f19e5.jpg",
+    "static/media/SocialMedia.css": "/portfolio/static/media/instagram.d034a7f8.svg",
+    "static/media/manOnTable.8f117eb2.svg": "/portfolio/static/media/manOnTable.8f117eb2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.355d6fd6.js",
+    "static/js/2.ea6acc75.chunk.js",
+    "static/css/main.c11e4877.chunk.css",
+    "static/js/main.db08bfd2.chunk.js"
+  ]
+}
