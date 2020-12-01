@@ -18,17 +18,17 @@ function Skill() {
     return (
         <div id="skills" className="skills__container">
 
-            <div className="skills__grid-item">
+            <div className="skills__grid-item" data-aos="zoom-in-up">
                 <img src={WokingMan} alt="Woking Man" className="skills__WorkingMan"/>
             </div>
 
             <div className="skills__grid-item">
-                <div className="skills__head-wrapper">
+                <div className="skills__head-wrapper" data-aos="zoom-in-up">
                     <h1 className="skills__head-text">What I Do</h1>
                     <p className="skills__head-desc">I'm a Developer who wants to explore every tech and experiment new stuff.</p>
                 </div>
 
-                <div className="skills__language-wrapper">
+                <div className="skills__language-wrapper" data-aos="zoom-in-up">
 
                     <div className="skills__language-grid-item">
 
@@ -96,7 +96,7 @@ function Skill() {
 
                 </div>
 
-                <div className="skills__points-wrapper">
+                <div className="skills__points-wrapper" data-aos="zoom-in-up">
                         <p className="skills__points">
                             🔥 Highly interactive and responsive Front-End web and mobile applications.
                         </p>

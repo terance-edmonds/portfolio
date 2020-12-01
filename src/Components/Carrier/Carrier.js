@@ -8,11 +8,11 @@ function Carrer() {
         <div id="carrier" className="carrier__container">
 
             <div className="carrier__grid-item">
-                <h1 className="carrier__heading">My Work Space</h1>
+                <h1 className="carrier__heading" data-aos="zoom-in-up">My Work Space</h1>
             </div>
 
-            <div className="carrier__grid-item">
-                <Link target='_blank' to="//egosurf.lk" className="carrier__card-link">
+            <div className="carrier__grid-item" >
+                <Link target='_blank' to="//egosurf.lk" className="carrier__card-link" data-aos="zoom-in-up">
                     <div className="carrier__card">
                         <div className="carrier__card-grid">
                             <img src={EgoSurf} alt="EgoSurf" className="carrier__image"/>

@@ -17,6 +17,7 @@
 }
 
 .contact__image{
+    margin-top: 5vh;
     background: url(../../images/Profile_Image.jpg);
     background-size: cover;
     object-fit: cover;
@@ -95,7 +96,7 @@
     .contact__container{
         padding-top: 5vh;
         margin-top: 10vh;
-        margin-bottom: 2vh;
+        margin-bottom: 8vh;
         display: flex;
         flex-direction: column;
         height: 100vh;

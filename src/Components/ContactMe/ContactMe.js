@@ -16,10 +16,10 @@ function ContactMe() {
     return (
         <div id="contact-me" className="contact__container">
             <div className="contact__grid-item">
-                <div className="contact__image"></div>
+                <div className="contact__image" data-aos="zoom-in-up"></div>
             </div>
             <div className="contact__grid-item">
-                <div className="contact__profile-wrapper">
+                <div className="contact__profile-wrapper" data-aos="zoom-in-up">
                     <div className="contact__profile-name">Terance Edmonds</div>
 
                     <div className="contact__profile-desc-head">

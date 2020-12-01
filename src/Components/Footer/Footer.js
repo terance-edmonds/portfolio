@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className="footer__container">
-            <span className="footer__head">Deveoped by <span className="footer__name"> T.A.Edmonds </span></span>
+            <span className="footer__head" >Deveoped by <span className="footer__name"> T.A.Edmonds </span></span>
         </div>
     )
 }

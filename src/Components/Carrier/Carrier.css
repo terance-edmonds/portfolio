@@ -70,13 +70,15 @@
 
 .carrier__card-desc-wrapper{
     margin-left: 1vw;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2.5rem;
+    margin-bottom: 3vh;
 }
 
 @media screen and (max-width: 1024px){
 
     .carrier__container{
+        margin-top: 5vh;
         display: flex;
         flex-direction: column;
     }

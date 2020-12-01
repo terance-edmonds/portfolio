@@ -65,7 +65,8 @@
         justify-content: center;
         text-align: center;
         height: 92vh;
-        margin-top: 5vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
     }
 
     .heroSection__head-wrapper{

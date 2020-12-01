@@ -9,12 +9,12 @@ function HeroSection() {
 
             <div className="heroSection__grid-item">
 
-                <div className="heroSection__head-wrapper">
+                <div className="heroSection__head-wrapper" data-aos="zoom-in-up">
                     <h1 className="heroSection__hero-text">Hey There, I'm Terance</h1>
                     <div className="heroSection__hero-emoji">👋</div> 
                 </div>
 
-                <p className="heroSection__hero-description">
+                <p className="heroSection__hero-description" data-aos="zoom-in-up">
                     A Passionate Web Developer.
                     I'm experienced in building web and mobile applications with Javascript, ReactJs, NodeJs and React Native and some other languages, cool libraries
                     and frameworks
@@ -24,7 +24,7 @@ function HeroSection() {
 
             </div>
 
-            <div className="heroSection__grid-item">
+            <div className="heroSection__grid-item" data-aos="zoom-in-up">
                 <img src={ManOnTheDesk} alt="Man on Desk" className="heroSection__image"/>
             </div>
         </div>
