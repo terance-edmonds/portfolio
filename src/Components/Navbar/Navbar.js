@@ -29,26 +29,26 @@ function Navbar() {
 
             <div className="navbar__grid-item">
                 <ul className={ click ? 'navbar__links-wrapper navbar__active' : 'navbar__links-wrapper'}>
-                    <li className="navbar__link-item">
-                        <Link to='skills' spy={true} smooth={true} offset={-50} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
-                                Skills
-                        </Link>
-                    </li>
-                    <li className="navbar__link-item">
-                        <Link to='carrier' spy={true} smooth={true} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
-                            Carrier
-                        </Link>
-                    </li>
-                    <li className="navbar__link-item">
-                        <Link to='projects' offset={-70} spy={true} smooth={true} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
-                            Projects 
-                        </Link>
-                    </li>
-                    <li className="navbar__link-item">
-                        <Link to='contact-me' spy={true} smooth={true} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
-                            Contact Me 
-                        </Link>
-                    </li>
+                    <Link to='skills' spy={true} smooth={true} offset={-50} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
+                        <li className="navbar__link-item">
+                                    Skills
+                        </li>
+                    </Link>
+                    <Link to='carrier' spy={true} smooth={true} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
+                        <li className="navbar__link-item">
+                                Carrier
+                        </li>
+                    </Link>
+                    <Link to='projects' offset={-70} spy={true} smooth={true} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
+                        <li className="navbar__link-item">
+                                Projects 
+                        </li>
+                    </Link>
+                    <Link to='contact-me' spy={true} smooth={true} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
+                        <li className="navbar__link-item">
+                                Contact Me 
+                        </li>
+                    </Link>
                 </ul>
             </div>
             
