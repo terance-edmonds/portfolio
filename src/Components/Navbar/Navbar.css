@@ -7,9 +7,12 @@
     grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
-    background: #1f1e1d;
-    color: #fff;
+    background: #eeeeee;
+    color: #000;
     z-index: 999;
+    box-shadow: -2px 1px 30px 1px #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
@@ -25,16 +28,14 @@
 }
 
 .navbar__link-item{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    width: 10vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
     padding: 0.8rem;
     font-size: 1.1rem;
-    border-bottom: 4px solid transparent;
-    transition: all 0.3s ease;
-}
-
-.navbar__link-item:hover{
-    border-bottom: 4px solid rgb(255, 49, 49);
+    transition: all 0.5s ease;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .navbar__menu-icon{
@@ -52,10 +53,10 @@
 
     .navbar__menu-icon{
         display: block;
-        font-size: 1.5rem;
+        font-size: 2rem;
         position: fixed;
-        right: 1rem;
-        top: 1rem;
+        top: 1vh;
+        right: 4vw;
         z-index: 99;
     }
 
@@ -70,7 +71,7 @@
         margin-top: 2vh;
         padding-top: 7vh;
         line-height: 5rem;
-        background: #1f1e1d;
+        background: #eeeeee;
         transition: all 0.5s ease-out;
         opacity: 0;
     }
@@ -78,6 +79,10 @@
     .navbar__active{
         left: 0;
         opacity: 1;
+    }
+
+    .navbar__link-item{
+        width: 100%;
     }
 
 }

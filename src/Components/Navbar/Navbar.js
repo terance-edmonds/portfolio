@@ -13,6 +13,7 @@ function Navbar() {
 
     const toggle_home = () => {
         scroll.scrollToTop();
+        setClick(false)
     }
     
     return (
@@ -34,12 +35,12 @@ function Navbar() {
                                     Skills
                         </li>
                     </Link>
-                    <Link to='carrier' spy={true} smooth={true} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
+                    <Link to='carrier' offset={-60} spy={true} smooth={true} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
                         <li className="navbar__link-item">
                                 Carrier
                         </li>
                     </Link>
-                    <Link to='projects' offset={-70} spy={true} smooth={true} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
+                    <Link to='projects' offset={-50} spy={true} smooth={true} duration={1000} className="navbar__link" onClick={closeMobileMenu}>
                         <li className="navbar__link-item">
                                 Projects 
                         </li>

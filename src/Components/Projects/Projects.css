@@ -16,7 +16,7 @@
 .projects__projects-desc{
     font-size: 1.2rem;
     letter-spacing: 0.15rem;
-    color: #c0c0c0;
+    color: #7c7c7c;
 }
 
 .projects__web-projects{
@@ -31,13 +31,13 @@
 .projects__card{
     margin: 5vh 2vh 2vh 2vh;
     width: 22vw;
-    height: 55vh;
-    background: rgb(238, 238, 238);
+    height: 54vh;
+    background: rgb(0, 0, 0);
     color: #000;
     border-radius: 0.5rem;
     transform: scale(0.97);
     transition: all 0.3s ease;
-    padding: 1.2rem;
+    padding: 2vh;
     cursor: none;
 }
 

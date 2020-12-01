@@ -33,7 +33,7 @@ function ContactMe() {
                     </div>
 
                     <div className="contact__location-wrapper">
-                        <IconContext.Provider value={{color: "white"}}>
+                        <IconContext.Provider value={{color: "#000"}}>
                             <div className="contact__location-icon"><HiOutlineLocationMarker/></div>
                         </IconContext.Provider>
                         <div className="contact__location">Homagama, SriLanka</div>

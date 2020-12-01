@@ -1,15 +1,24 @@
 .carrier__container{
     width: 100vw;
     height: 100vh;
-    padding: 25vh 2vw 10vw 2vw;
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+
+.carrier__grid-item:nth-child(2){
+    display: flex;
+    justify-content: center;
 }
 
 .carrier__card-grid{
     margin: 1rem;
+}
+
+.carrier__heading{
+    margin-bottom: 10vh;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .carrier__card-link{

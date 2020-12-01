@@ -24,7 +24,7 @@
     margin-top: 2vh;
     margin-bottom: 2vh;
     font-size: 1.2rem;
-    color: #c0c0c0;
+    color: #7c7c7c;
 }
 
 .skills__language-wrapper{
@@ -35,7 +35,7 @@
 
 .skills__single-language-wrapper{
     text-align: center;
-    color: #c0c0c0;
+    color: #949494;
     font-size: 0.7rem;
 }
 
@@ -90,7 +90,7 @@
     }
 
     .skills__single-language-wrapper{
-        font-size: 0.5rem;
+        font-size: 0.3rem;
     }
 
     .skills__language{
