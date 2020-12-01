@@ -1,0 +1,148 @@
+.skills__container{
+    width: 100vw;
+    height: 92vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.skills__grid-item{
+    align-items: center;
+    justify-self: center;
+}
+
+.skills__grid-item:nth-child(2){
+    padding: 5vw;
+}
+
+.skills__head-text{
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+.skills__head-desc{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 1.5rem;
+    color: #c0c0c0;
+}
+
+.skills__language-wrapper{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+}
+
+.skills__single-language-wrapper{
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 0.7rem;
+}
+
+.skills__language-grid-item{
+    justify-self: center;
+    display: flex;
+    margin-top: 4vh;
+}
+
+.skills__language{
+    width: 50px;
+    height: 50px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+
+.skills__language:hover{
+    transform: scale(1.1);
+}
+
+.skills__WorkingMan{
+    width: 30vw;
+}
+
+.skills__points-wrapper{
+    margin-top: 7vh;
+    line-height: 1.8rem;
+}
+
+.skills__points{
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1024px){
+    .skills__container{
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        height: 130vh;
+    }
+
+    .skills__head-text{
+        font-size: 2rem;
+    }
+
+    .skills__head-desc{
+        font-size: 1rem;
+    }
+
+    .skills__single-language-wrapper{
+        font-size: 0.5rem;
+    }
+
+    .skills__language{
+        width: 30px;
+        height: 30px;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+    }
+
+    .skills__points-wrapper{
+        line-height: 2rem;
+    }
+
+    .skills__points{
+        font-size: 0.9rem;
+    }
+
+    .skills__WorkingMan{
+        width: 70vw;
+        margin-bottom: 5vh;
+    }
+
+}
+
+@media screen and (width: 1024px){
+    .skills__container{
+        margin-top: 0;
+        height: 110vh;
+    }
+
+    .skills__head-text{
+        font-size: 3rem;
+    }
+
+    .skills__head-desc{
+        font-size: 1.5rem;
+    }
+
+    .skills__language{
+        width: 50px;
+        height: 50px;
+    }
+
+    .skills__single-language-wrapper{
+        font-size: 1rem;
+    }
+
+    .skills__points-wrapper{
+        line-height: 2.5rem;
+    }
+
+    .skills__points{
+        font-size: 1.5rem;
+    }
+}

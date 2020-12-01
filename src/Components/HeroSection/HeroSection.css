@@ -1,0 +1,107 @@
+.heroSection__container{
+    margin-top: 8vh;
+    width: 100vw;
+    height: 92vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.heroSection__grid-item:nth-child(1){
+    margin: 5vw;
+}
+
+.heroSection__head-wrapper{
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.heroSection__hero-text{
+    margin-top: 15vh;
+    font-size: 2.7rem;
+}
+
+.heroSection__hero-emoji{
+    display: flex;
+    align-items: center;
+    margin-top: 14vh;
+    margin-left: 1vw;
+    font-size: 2.4rem;
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;  
+}
+
+.heroSection__hero-description{
+    font-size: 1.5rem;
+    word-spacing: 0.3rem;
+    line-height: 2.5rem;
+    margin-bottom: 4vh;
+}
+
+.heroSection__image{
+    margin-top: 12vh;
+    margin-left: 3vw;
+    width: 40vw;
+}
+
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) } 
+  100% { transform: rotate( 0.0deg) }
+}
+
+@media screen and (max-width: 1024px){
+    .heroSection__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 92vh;
+        margin-top: 5vh;
+    }
+
+    .heroSection__head-wrapper{
+        justify-content: center;
+    }
+
+    .heroSection__hero-text{
+        margin-top: 1vh;
+        font-size: 1.5rem;
+    }
+
+    .heroSection__hero-description{
+        font-size: 1rem;
+    }
+
+    .heroSection__hero-emoji{
+        margin-top: 0.5vh;
+        font-size: 1.5rem;
+    }
+
+    .heroSection__image{
+        margin-top: 3vh;
+        width: 70vw;
+    }
+}
+
+@media screen and (width: 1024px){
+    .heroSection__hero-text{
+        font-size: 2rem;
+    }
+
+    .heroSection__hero-description{
+        font-size: 1.5rem;
+    }
+
+    .heroSection__hero-emoji{
+        font-size: 2rem;
+    }
+}

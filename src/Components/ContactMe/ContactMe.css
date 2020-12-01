@@ -1,0 +1,167 @@
+.contact__container{
+    width: 100vw;
+    height: 82vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contact__grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__grid-item:nth-child(2){
+    justify-content: start;
+    padding: 100px;
+}
+
+.contact__image{
+    background: url(../../images/Profile_Image.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 #fff;
+	transform: scale(1);
+    animation: pulse 2.5s infinite;
+}
+
+.contact__image:hover{
+    cursor: none;
+}
+
+.contact__profile-name{
+    font-size: 3rem;
+}
+
+.contact__profile-desc-head{
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    word-spacing: 0.2rem;
+    color: #c0c0c0;
+}
+
+.contact__desc-wrapper{
+    display: flex;
+    font-size: 2rem;
+    height: 2rem;
+    margin-bottom: 30px;
+}
+
+.contact__profile-desc-1{
+    margin-top: 1px;
+    margin-right: 0.7rem;
+}
+
+.contact__profile-desc-2{
+    font-weight: 700;
+}
+
+.contact__location-wrapper{
+    display: flex;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    align-items: center;
+}
+
+.contact__location-icon{
+    margin-right: 0.5vw;
+    font-size: 1.5rem;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.97);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+	}
+
+	100% {
+		transform: scale(0.97);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+	}
+}
+
+@media screen and (max-width: 1024px){
+    .contact__container{
+        padding-top: 5vh;
+        margin-top: 10vh;
+        margin-bottom: 2vh;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .contact__image{
+        margin-top: 5vh;
+        width: 250px;
+        height: 250px;
+    }
+
+    .contact__grid-item:nth-child(2){
+        justify-content: center;
+        padding: 1vw;
+    }
+
+    .contact__profile-name{
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+        font-size: 2rem;
+    }
+
+    .contact__desc-wrapper{
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+    .contact__location-wrapper{
+        font-size: 1rem;
+    }
+
+    .contact__location-wrapper{
+        justify-content: center;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (width: 1024px){
+    .contact__container{
+        height: 82vh;
+    }
+
+    .contact__image{
+        width: 400px;
+        height: 400px;
+    }
+
+    .contact__profile-name{
+        font-size: 2.5rem;
+    }
+
+    .contact__profile-desc-head{
+        width: 80vw;
+        font-size: 1.5rem;
+    }
+
+    .contact__profile-desc-1{
+        font-size: 1.5rem;
+    }
+
+    .contact__profile-desc-2{
+        font-size: 1.5rem;
+    }
+
+    .contact__location-wrapper{
+        font-size: 1.5rem;
+    }
+}

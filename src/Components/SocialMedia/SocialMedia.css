@@ -1,0 +1,49 @@
+.socialMedia__social-media-wrapper{
+    display: flex;
+}
+
+.socialMedia__social-media{
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+}
+
+.socialMedia__social-media:hover{
+    transform: scale(1);
+}
+
+.socialMedia__github{
+    background: url(../../images/social-media/github.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.socialMedia__instagram{
+    background: url(../../images/social-media/instagram.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    margin-left: 1vw;
+    margin-right: 1.2vw;
+}
+
+.socialMedia__gmail{
+    background: url(../../images/social-media/gmail.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 1024px){
+    .socialMedia__social-media-wrapper{
+        justify-content: center;
+    }
+
+    .socialMedia__social-media{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

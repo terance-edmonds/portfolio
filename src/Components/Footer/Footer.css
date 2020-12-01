@@ -1,0 +1,22 @@
+.footer__container{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f1e1d;
+}
+
+.footer__head{
+    font-size: 1.2rem;
+}
+
+.footer__name{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px){
+    .footer__container{
+        width: 100%;
+    }
+}
