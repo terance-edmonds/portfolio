@@ -20,7 +20,7 @@ function Navbar() {
         <div className="navbar__container">
             
             <div className="navbar__grid-item">
-                <h2 className="navbar__text" onClick={toggle_home}> {name} </h2>
+                <Link> <h2 className="navbar__text" onClick={toggle_home}> {name} </h2> </Link>
             </div>
 
             
