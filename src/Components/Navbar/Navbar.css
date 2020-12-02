@@ -1,4 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
 .navbar__container{
+    background: #eeeeee;
+    position: fixed;
+    top: 0;
+    height: 8vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    z-index: 99;
+    box-shadow: -2px 1px 10px 1px #000;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.navbar__head{
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'Sacramento', cursive;
+}
+
+.navbar__links-wrapper{
+    display: flex;
+    margin-left: 4vw;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.navbar__link{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding: 0.8rem;
+    text-decoration: none;
+}
+
+.navbar__menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+
+    .navbar__container{
+        width: 100vw;
+    }
+
+    .navbar__head{
+        font-size: 1.5rem;
+        width: max-content;
+    }
+
+    .navbar__grid-item:nth-child(1){
+        display: flex;
+    }
+
+    .navbar__menu-icon{
+        display: block;
+        position: absolute;
+        top: 3vh;
+        right: 4vw;
+        font-size: 1.2rem;
+    }
+
+    .navbar__links-wrapper{
+        opacity: 0;
+        flex-direction: column;
+        position: absolute;
+        right: -20px;
+        top: -20px;
+        text-align: center;
+        padding-top: 7vh;
+        line-height: 15vh;
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+        border-radius: 100%;
+        transition: all 0.5s ease;
+        line-height: 10vh;
+        font-size: 0;
+        background: #eeeeee;
+    }
+
+    .navbar__grid-item:nth-child(1){
+        z-index: 99;
+    }
+
+    .navbar__active{
+        opacity: 1;
+        border-radius: 0;
+        top: 20px;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        line-height: 17vh;
+        font-size: 1.5rem;
+    }
+    
+}
+
+/* .navbar__container{
     width: 100vw;
     height: 8vh;
     display: grid;
@@ -25,6 +125,7 @@
     display: flex;
     list-style: none;
     z-index: 999;
+    font-size: 1.1rem;
 }
 
 .navbar__link-item{
@@ -32,7 +133,6 @@
     margin-left: 1vw;
     margin-right: 1vw;
     padding: 0.8rem;
-    font-size: 1.1rem;
     transition: all 0.5s ease;
     text-align: center;
     border-radius: 10px;
@@ -57,32 +157,47 @@
         position: fixed;
         top: 1vh;
         right: 4vw;
-        z-index: 99;
+        z-index: 99999;
     }
 
     .navbar__links-wrapper{
+        font-size: 0;
+        color: transparent;
         position: absolute;
-        left: -100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 100vw;
-        height: 100vh;
-        margin-top: 2vh;
+        right: -50px;
+        top: -50px;
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        margin-top: 3vh;
         padding-top: 7vh;
-        line-height: 5rem;
-        background: #eeeeee;
+        background: transparent;
         transition: all 0.5s ease-out;
-        opacity: 0;
+        opacity: 1;
+        display: grid;
+        grid-template-rows: auto;
+        line-height: 5vh;
     }
 
     .navbar__active{
-        left: 0;
+        display: flex;
+        flex-direction: column;
+        right: 0px;
+        top: 20px;
+        width: 100vw;
+        height: 110vh;
+        font-size: 1.1rem;
         opacity: 1;
+        border-radius: 0;
+        line-height: 15vh;
+        color: #000;
+        background: #eeeeee;
     }
 
     .navbar__link-item{
-        width: 100%;
+        width: 100vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
     }
 
 }
@@ -92,4 +207,4 @@
         font-size: 2rem;
         top: 2.5rem;
     }
-}
+} */
