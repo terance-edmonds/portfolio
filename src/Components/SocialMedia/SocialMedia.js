@@ -1,17 +1,8 @@
 import React from 'react'
 import './SocialMedia.css'
 import {Link} from 'react-router-dom'
-import { Popup } from 'semantic-ui-react'
 
 function SocialMedia() {
-
-    const style = {
-        borderRadius: '0.5rem',
-        opacity: 1,
-        padding: '0.5rem',
-        background: '#fff',
-        color: '#000',
-      }
 
     return (
         <div>
