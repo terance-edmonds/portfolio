@@ -17,9 +17,10 @@ function SocialMedia() {
         <div>
             <div className="socialMedia__social-media-wrapper" data-aos="zoom-in-up">
                 <Link target="_blank" to='//fiverr.com/terance-edmonds'> <div className="socialMedia__fiverr socialMedia__social-media"></div> </Link>
+                <Link target="_blank" to='//linkedin.com/in/terance-edmonds-6ab3bb201'> <div className="socialMedia__linkedin socialMedia__social-media"></div> </Link>
                 <Link target="_blank" to='//github.com/terance-edmonds'> <div className="socialMedia__github socialMedia__social-media"></div> </Link>
                 <Link target="_blank" to='//instagram.com/t.a.edmonds/'> <div className="socialMedia__instagram socialMedia__social-media"></div> </Link>
-                <Link><Popup position='bottom left' style={style} trigger={<div className="socialMedia__gmail socialMedia__social-media" onClick={() => {navigator.clipboard.writeText('teranceedmonds20@gmail.com')}}/>} content="teranceedmonds20@gmail.com"/></Link>
+                <a href="mailto:teranceedmonds20@gmail.com"><div className="socialMedia__gmail socialMedia__social-media" /></a>
             </div>
         </div>
     )

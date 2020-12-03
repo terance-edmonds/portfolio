@@ -20,6 +20,15 @@
     height: 32px;
 }
 
+.socialMedia__linkedin{
+    background: url(../../images/social-media/linkedin.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1vw;
+    width: 32px;
+    height: 32px;
+}
+
 .socialMedia__github{
     background: url(../../images/social-media/github.svg);
     background-repeat: no-repeat;
