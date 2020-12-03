@@ -10,7 +10,7 @@ function Projects() {
 
                 <div className="projects__projects-head-wrapper" data-aos="zoom-in-up">
                     <h1 className="projects__projects-head">Projects</h1>
-                    <p className="projects__projects-desc">Some awsome projects i helped with</p>
+                    <p className="projects__projects-desc">Some awesome projects i helped with</p>
                 </div>
 
                 <div className="projects__web-projects" data-aos="zoom-in-up">

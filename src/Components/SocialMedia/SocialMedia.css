@@ -11,6 +11,15 @@
     transform: scale(1);
 }
 
+.socialMedia__fiverr{
+    background: url(../../images/social-media/fiverr.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1vw;
+    width: 32px;
+    height: 32px;
+}
+
 .socialMedia__github{
     background: url(../../images/social-media/github.svg);
     background-repeat: no-repeat;
