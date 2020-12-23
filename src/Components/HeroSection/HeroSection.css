@@ -66,7 +66,6 @@
         text-align: center;
         height: 92vh;
         margin-top: 10vh;
-        margin-bottom: 10vh;
     }
 
     .heroSection__head-wrapper{
@@ -88,7 +87,7 @@
     }
 
     .heroSection__image{
-        margin-top: 3vh;
+        margin-top: 7vh;
         width: 70vw;
     }
 }

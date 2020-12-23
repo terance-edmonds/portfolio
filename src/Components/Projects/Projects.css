@@ -33,9 +33,7 @@
     margin: 5vh 2vh 2vh 2vh;
     width: 22vw;
     height: 54vh;
-    background: rgb(0, 0, 0);
-    color: #000;
-    border-radius: 0.5rem;
+    background: transparent;
     transform: scale(0.97);
     transition: all 0.3s ease;
     padding: 2vh;
@@ -45,7 +43,7 @@
 .projects__big-card-image{
     width: 20vw;
     height: 50vh;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .projects__card:hover{

@@ -9,7 +9,7 @@ function ContactMe() {
 
     const texts = [
         'Full Stack Web Developer 💻',
-        'Mobile App Developer 📱',
+        'Graphic Designer 🖌',
         'Software Developer 🖥'
       ]
 
