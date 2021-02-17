@@ -1,6 +1,6 @@
 {
-  "homepage": " https://terance-edmonds.github.io/portfolio",
-  "name": "portfolio-site",
+  "homepage": " https://terance-edmonds.github.io/sample-portfolio",
+  "name": "sample-portfolio-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,11 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-scroll": "^1.8.1",
+    "react-smooth-scrollbar": "^8.0.6",
+    "react-smooth-scrolling": "^1.0.2",
     "semantic-ui-react": "^2.0.1",
+    "smooth-scrollbar": "^8.6.0",
+    "smooth-scrollbar-react": "^1.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

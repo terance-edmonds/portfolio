@@ -5,17 +5,19 @@ import Home from './Components/Home';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
-  
   useEffect(() => {
     AOS.init({duration: 1000})
   }, [])
+  
 
   return (
     <div className="app__container">
-      <Router>
+      <Navbar/>
       <Cursor/>
+      <Router>
         <Switch>
           <Route to='/' exact component={Home}/>
         </Switch>

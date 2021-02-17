@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ContactMe from './ContactMe/ContactMe'
 import Footer from './Footer/Footer'
 import HeroSection from './HeroSection/HeroSection'
-import Navbar from './Navbar/Navbar'
 import Projects from './Projects/Projects'
 import Skill from './Skills/Skill'
 import Carrier from './Carrier/Carrier'
@@ -10,7 +9,6 @@ import Carrier from './Carrier/Carrier'
 function Home() {
     return (
         <>
-            <Navbar/>
             <HeroSection/>
             <Skill/>
             <Carrier/>

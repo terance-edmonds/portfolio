@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 function Carrer() {
     return (
-        <div id="carrier" className="carrier__container">
+        <div id="carrier" className="carrier__container" >
 
             <div className="carrier__grid-item">
                 <h1 className="carrier__heading" data-aos="zoom-in-up">My Work Space</h1>
