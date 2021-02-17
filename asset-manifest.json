@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8b08a376.chunk.css",
-    "main.js": "/portfolio/static/js/main.8dd25dd5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8dd25dd5.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.355d6fd6.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.355d6fd6.js.map",
-    "static/css/2.ec02d681.chunk.css": "/portfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.f084a9db.chunk.js": "/portfolio/static/js/2.f084a9db.chunk.js",
-    "static/js/2.f084a9db.chunk.js.map": "/portfolio/static/js/2.f084a9db.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/2.ec02d681.chunk.css.map": "/portfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.8b08a376.chunk.css.map": "/portfolio/static/css/main.8b08a376.chunk.css.map",
-    "static/js/2.f084a9db.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f084a9db.chunk.js.LICENSE.txt",
-    "static/media/DTS.1949ebb0.png": "/portfolio/static/media/DTS.1949ebb0.png",
-    "static/media/ContactMe.css": "/portfolio/static/media/Profile_Image.29ae1c46.jpg",
-    "static/media/WokingMan.40f1181a.svg": "/portfolio/static/media/WokingMan.40f1181a.svg",
-    "static/media/egosurf_logo.5a7f19e5.jpg": "/portfolio/static/media/egosurf_logo.5a7f19e5.jpg",
-    "static/media/SocialMedia.css": "/portfolio/static/media/linkedin.9c537f31.svg",
-    "static/media/manOnTable.8f117eb2.svg": "/portfolio/static/media/manOnTable.8f117eb2.svg"
+    "main.css": "/sample-portfolio/static/css/main.91e18eb1.chunk.css",
+    "main.js": "/sample-portfolio/static/js/main.8399589d.chunk.js",
+    "main.js.map": "/sample-portfolio/static/js/main.8399589d.chunk.js.map",
+    "runtime-main.js": "/sample-portfolio/static/js/runtime-main.4fb4f837.js",
+    "runtime-main.js.map": "/sample-portfolio/static/js/runtime-main.4fb4f837.js.map",
+    "static/css/2.ec02d681.chunk.css": "/sample-portfolio/static/css/2.ec02d681.chunk.css",
+    "static/js/2.87004d61.chunk.js": "/sample-portfolio/static/js/2.87004d61.chunk.js",
+    "static/js/2.87004d61.chunk.js.map": "/sample-portfolio/static/js/2.87004d61.chunk.js.map",
+    "index.html": "/sample-portfolio/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/sample-portfolio/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.91e18eb1.chunk.css.map": "/sample-portfolio/static/css/main.91e18eb1.chunk.css.map",
+    "static/js/2.87004d61.chunk.js.LICENSE.txt": "/sample-portfolio/static/js/2.87004d61.chunk.js.LICENSE.txt",
+    "static/media/DTS.1949ebb0.png": "/sample-portfolio/static/media/DTS.1949ebb0.png",
+    "static/media/ContactMe.css": "/sample-portfolio/static/media/Profile_Image.29ae1c46.jpg",
+    "static/media/WokingMan.40f1181a.svg": "/sample-portfolio/static/media/WokingMan.40f1181a.svg",
+    "static/media/egosurf_logo.5a7f19e5.jpg": "/sample-portfolio/static/media/egosurf_logo.5a7f19e5.jpg",
+    "static/media/SocialMedia.css": "/sample-portfolio/static/media/linkedin.9c537f31.svg",
+    "static/media/manOnTable.8f117eb2.svg": "/sample-portfolio/static/media/manOnTable.8f117eb2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.355d6fd6.js",
+    "static/js/runtime-main.4fb4f837.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.f084a9db.chunk.js",
-    "static/css/main.8b08a376.chunk.css",
-    "static/js/main.8dd25dd5.chunk.js"
+    "static/js/2.87004d61.chunk.js",
+    "static/css/main.91e18eb1.chunk.css",
+    "static/js/main.8399589d.chunk.js"
   ]
 }
