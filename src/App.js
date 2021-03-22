@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Cursor from './Components/Cursor/Cursor';
-import MagnetCursor from './Components/MagnetCursor/MagnetCursor';
 import Home from './Components/Home';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -17,7 +16,6 @@ function App() {
   return (
     <div className="app__container">
       <Navbar/>
-      {/* <MagnetCursor/> */}
       <Cursor/>
       <Router>
         <Switch>

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import ContactMe from './ContactMe/ContactMe'
 import Footer from './Footer/Footer'
 import HeroSection from './HeroSection/HeroSection'

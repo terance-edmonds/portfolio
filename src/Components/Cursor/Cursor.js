@@ -17,11 +17,11 @@ function Cursor() {
 
    useEffect(() => {
        addEventListeners();
-       handleLinkHoverEvents();
+       onhandleLinkHoverEvents();
        return () => removeEventListeners();
    }, []);
 
-   const handleLinkHoverEvents = () => {
+   const onhandleLinkHoverEvents = () => {
            document.querySelectorAll("a").forEach(el => {
                el.addEventListener("mouseover", () => setLinkHovered(true));
                el.addEventListener("mouseout", () => setLinkHovered(false));

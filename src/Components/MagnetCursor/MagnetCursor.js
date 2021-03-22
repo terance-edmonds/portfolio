@@ -21,7 +21,13 @@ function MagnetCursor(){
         y: 0
     }
 
-    function handleLinkHoverEvents() {
+    useEffect(() => {
+        addEventListeners();
+        onhandleLinkHoverEvents();
+        return () => removeEventListeners();
+    }, []);
+
+    function onhandleLinkHoverEvents() {
         document.querySelectorAll("a").forEach(el => {
             el.addEventListener("mouseover", () =>{ 
                 setLinkHovered(true)
@@ -40,12 +46,6 @@ function MagnetCursor(){
             });
         });
     };
-
-    useEffect(() => {
-        addEventListeners();
-        handleLinkHoverEvents();
-        return () => removeEventListeners();
-    }, []);
 
     function activeElement(node){
         
