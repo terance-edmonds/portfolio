@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/sample-portfolio/static/css/main.91e18eb1.chunk.css",
-    "main.js": "/sample-portfolio/static/js/main.8399589d.chunk.js",
-    "main.js.map": "/sample-portfolio/static/js/main.8399589d.chunk.js.map",
+    "main.css": "/sample-portfolio/static/css/main.3b4025ca.chunk.css",
+    "main.js": "/sample-portfolio/static/js/main.0cfd201f.chunk.js",
+    "main.js.map": "/sample-portfolio/static/js/main.0cfd201f.chunk.js.map",
     "runtime-main.js": "/sample-portfolio/static/js/runtime-main.4fb4f837.js",
     "runtime-main.js.map": "/sample-portfolio/static/js/runtime-main.4fb4f837.js.map",
     "static/css/2.ec02d681.chunk.css": "/sample-portfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.87004d61.chunk.js": "/sample-portfolio/static/js/2.87004d61.chunk.js",
-    "static/js/2.87004d61.chunk.js.map": "/sample-portfolio/static/js/2.87004d61.chunk.js.map",
+    "static/js/2.b73c51d4.chunk.js": "/sample-portfolio/static/js/2.b73c51d4.chunk.js",
+    "static/js/2.b73c51d4.chunk.js.map": "/sample-portfolio/static/js/2.b73c51d4.chunk.js.map",
     "index.html": "/sample-portfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/sample-portfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.91e18eb1.chunk.css.map": "/sample-portfolio/static/css/main.91e18eb1.chunk.css.map",
-    "static/js/2.87004d61.chunk.js.LICENSE.txt": "/sample-portfolio/static/js/2.87004d61.chunk.js.LICENSE.txt",
+    "static/css/main.3b4025ca.chunk.css.map": "/sample-portfolio/static/css/main.3b4025ca.chunk.css.map",
+    "static/js/2.b73c51d4.chunk.js.LICENSE.txt": "/sample-portfolio/static/js/2.b73c51d4.chunk.js.LICENSE.txt",
     "static/media/DTS.1949ebb0.png": "/sample-portfolio/static/media/DTS.1949ebb0.png",
     "static/media/ContactMe.css": "/sample-portfolio/static/media/Profile_Image.29ae1c46.jpg",
     "static/media/WokingMan.40f1181a.svg": "/sample-portfolio/static/media/WokingMan.40f1181a.svg",
+    "static/media/chatbot.73e0d76b.png": "/sample-portfolio/static/media/chatbot.73e0d76b.png",
     "static/media/egosurf_logo.5a7f19e5.jpg": "/sample-portfolio/static/media/egosurf_logo.5a7f19e5.jpg",
     "static/media/SocialMedia.css": "/sample-portfolio/static/media/linkedin.9c537f31.svg",
+    "static/media/image1.24521e2c.png": "/sample-portfolio/static/media/image1.24521e2c.png",
     "static/media/manOnTable.8f117eb2.svg": "/sample-portfolio/static/media/manOnTable.8f117eb2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4fb4f837.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.87004d61.chunk.js",
-    "static/css/main.91e18eb1.chunk.css",
-    "static/js/main.8399589d.chunk.js"
+    "static/js/2.b73c51d4.chunk.js",
+    "static/css/main.3b4025ca.chunk.css",
+    "static/js/main.0cfd201f.chunk.js"
   ]
 }
