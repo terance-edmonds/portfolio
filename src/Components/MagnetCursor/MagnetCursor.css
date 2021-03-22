@@ -1,0 +1,55 @@
+#magnet-cursor{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 100%;
+    z-index: 99999;
+    pointer-events: none;
+    padding: 10px;
+    transition: all 0.15s;
+    display: flex;
+    left: 50%;
+    top: 50%;
+}
+
+#magnet-cursor-spot{
+    position: sticky;
+    width: 8px;
+    height: 8px;
+    background: black;
+    border-radius: 100%;
+    z-index: 99999;
+    pointer-events: none;
+}
+
+.magnet_cursor-element{
+    transition: all 0.2s ease;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin-left : 15vw;
+    margin-top: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.magnet-cursor--hidden {
+    opacity: 0;
+}
+
+.magnet-cursor--clicked {
+    transform: scale(0.9);
+    background-color: #fefefe;
+}
+
+.magnet-cursor--link-hovered{
+    border: 3px solid rgba(254, 254, 254, 0.5);
+    background: rgba(254, 254, 254, 0.5);
+}
+
+.magnet-cursor--grab-hovered{
+
+}

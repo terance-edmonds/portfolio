@@ -23,7 +23,7 @@ function Carrer() {
                                 <p className="carrier__card-head-desc">Software and Web Development Firm.</p>
                             </div>
                             <ul className="carrier__card-desc-wrapper">
-                                <li className="carrier__card-desc">Co-Founder of EGOSURF</li>
+                                {/* <li className="carrier__card-desc">Co-Founder of EGOSURF</li> */}
                                 <li className="carrier__card-desc">Working as a Web Devloper</li>
                             </ul>
                         </div>

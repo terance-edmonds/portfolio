@@ -15,7 +15,7 @@ function HeroSection() {
                 </div>
 
                 <p className="heroSection__hero-description" data-aos="zoom-in-up">
-                    A Passionate Software Developer.
+                    A Passionate Software/Web Developer.
                     I'm experienced in building web applications with Javascript, ReactJs, NodeJs and some other languages, cool libraries
                     and frameworks
                 </p>

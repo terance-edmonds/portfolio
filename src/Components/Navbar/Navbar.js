@@ -26,9 +26,7 @@ function Navbar() {
                 </div>
 
             </div>
-            
             <div className="navbar__grid-item">
-
                 <ul className={click ? "navbar__links-wrapper navbar__active" : "navbar__links-wrapper"}>
                     <Link to='skills' spy={true} smooth={true} offset={-50} duration={1000} className="navbar__link" onClick={closeMobileMenu} >
                         <li className="navbar__link-item">
